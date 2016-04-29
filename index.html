@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div data-ng-controller="CalculatorController">
+        <input data-ng-model="x" type="number">
+        <input data-ng-model="y" type="number">
+        <strong data-ng-bind="z"></strong>
+        <input type="button" data-ng-click="sum()" value="+">
+    </div>
+</body>
+<script type="text/javascript" src="calculator-app.js"></script>
+</html>
