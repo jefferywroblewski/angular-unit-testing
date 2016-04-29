@@ -1,0 +1,20 @@
+{
+  "name": "angular-unit-testing",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jefferywroblewski/angular-unit-testing",
+  "authors": [
+    "Jeff Wroblewski <jefferywroblewski@att.net>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "1.4.9",
+    "angular-mocks": "1.4.9"
+  }
+}
